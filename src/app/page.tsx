@@ -2,7 +2,7 @@ import Header from '@/components/Header';
 import { client } from '@/sanity/lib/client';
 import Link from 'next/link';
 import React from 'react';
-import { Post } from '../../typing';
+import { Post } from '../../types';
 import { urlFor } from '@/sanity/lib/image';
 
 export default async function Home() {
